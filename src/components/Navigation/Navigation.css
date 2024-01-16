@@ -1,0 +1,16 @@
+.Nav__outer {
+  padding-top: 1.5em;
+  padding-bottom: 1.4em;
+  padding-left: 2.1em;
+  padding-right: 2.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nav__outer .Nav__container {
+  width: 74.5em;
+}
+.Nav__outer .Nav__logo {
+  width: auto;
+  height: 5em;
+}/*# sourceMappingURL=Navigation.css.map */
