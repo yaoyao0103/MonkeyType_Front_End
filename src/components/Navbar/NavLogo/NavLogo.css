@@ -1,0 +1,28 @@
+.NavLogo__outer {
+  height: auto;
+  cursor: pointer;
+}
+.NavLogo__outer .NavLogo__logo {
+  width: 32px;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+  fill: #19C37D;
+}
+.NavLogo__outer .NavLogo__text {
+  float: left;
+  margin-left: 6.4px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.NavLogo__outer .NavLogo__text .NavLogo__text-top {
+  margin-top: 0;
+  margin-left: 3px;
+  font-size: 8.3px;
+  color: #646669;
+  font-weight: 500;
+  margin-bottom: -9.5px;
+}
+.NavLogo__outer .NavLogo__text .NavLogo__text-bottom {
+  font-size: 25.6px;
+  font-weight: 500;
+}/*# sourceMappingURL=NavLogo.css.map */

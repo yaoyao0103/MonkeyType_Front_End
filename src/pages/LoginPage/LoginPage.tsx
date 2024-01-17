@@ -1,10 +1,16 @@
 import React from 'react'
+import Outer from '../../components/Outer/Outer'
+import Navbar from '../../components/Navbar/Navbar'
 
 type Props = {}
 
 const LoginPage = (props: Props) => {
   return (
-    <div>LoginPage</div>
+    <div>
+      <Outer>
+        <Navbar />
+      </Outer>
+    </div>
   )
 }
 

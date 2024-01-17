@@ -1,0 +1,50 @@
+.Nav__outer {
+  padding-top: 20.5px;
+  padding-bottom: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nav__outer .Nav__container {
+  height: 33px;
+  width: 946.2px;
+  margin-left: 25.5px;
+  margin-right: 33.3px;
+  display: flex;
+}
+.Nav__outer .Nav__container .Nav__left {
+  height: inherit;
+  width: 330px;
+}
+.Nav__outer .Nav__container .Nav__right {
+  height: inherit;
+  margin-left: auto;
+  width: 100px;
+}
+.Nav__outer .Nav__container .Nav__right .Nav__button {
+  gap: 22.7px;
+}
+.Nav__outer .Nav__container .Nav__button {
+  display: flex;
+  flex-direction: row;
+  width: 16px;
+  gap: 21.7px;
+  float: left;
+  height: inherit;
+  margin-left: 13.8px;
+  margin-top: 10.25px;
+  text-align: center;
+  cursor: pointer;
+}
+.Nav__outer .Nav__container .Nav__button .Nav__icon {
+  height: auto;
+  width: 16px;
+  float: left;
+  font-size: 12.8px;
+  color: #646669;
+  transition: 0.1s ease;
+}
+.Nav__outer .Nav__container .Nav__icon:hover {
+  color: #D1D0C5;
+  transition: 0.1s ease;
+}/*# sourceMappingURL=Navigation.css.map */

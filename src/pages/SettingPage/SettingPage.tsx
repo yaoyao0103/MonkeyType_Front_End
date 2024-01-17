@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar/Navbar'
 
 type Props = {}
 
-const AboutPage = (props: Props) => {
+const SettingPage = (props: Props) => {
   return (
     <div>
       <Outer>
@@ -14,4 +14,4 @@ const AboutPage = (props: Props) => {
   )
 }
 
-export default AboutPage
+export default SettingPage

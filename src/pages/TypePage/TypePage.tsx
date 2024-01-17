@@ -1,13 +1,13 @@
 import React from 'react'
 import Outer from '../../components/Outer/Outer'
-import Navigation from '../../components/Navigation/Navigation'
+import Navbar from '../../components/Navbar/Navbar'
 type Props = {}
 
 const TypePage = (props: Props) => {
   return (
     <div>
       <Outer>
-        <Navigation />
+        <Navbar />
       </Outer>
     </div>
   )
