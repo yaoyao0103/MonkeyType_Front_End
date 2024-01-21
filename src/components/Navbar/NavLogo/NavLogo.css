@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
 .NavLogo__outer {
   height: auto;
   cursor: pointer;
@@ -12,7 +13,6 @@
 .NavLogo__outer .NavLogo__text {
   float: left;
   margin-left: 6.4px;
-  font-family: "Lexend Deca", sans-serif;
 }
 .NavLogo__outer .NavLogo__text .NavLogo__text-top {
   margin-top: 0;

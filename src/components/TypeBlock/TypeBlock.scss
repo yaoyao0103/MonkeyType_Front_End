@@ -1,0 +1,43 @@
+@import '../../variables';
+.typeBlock__layout{
+    padding-top: 152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .typeBlock__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 616px;
+        height: 31.5px;
+        display: block;
+        padding-right: 5px;
+        .typeBlock__language{
+            cursor: pointer;
+            width: inherit;
+            height: inherit;
+            color: $secondary-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $roboto-mono;
+            font-size: 12.2px;
+            transition: 0.1s ease;
+            div{
+                float: left;
+            }
+            .text{
+                font-size: 12.8px;
+                margin-left: 12.5px;
+            }
+        }
+        .typeBlock__language:hover{
+            color: $secondary-color-hover;
+            transition: 0.1s ease;
+        }
+        .typeBlock__type{
+            width: inherit;
+            height: 300px;
+        }
+    }
+}

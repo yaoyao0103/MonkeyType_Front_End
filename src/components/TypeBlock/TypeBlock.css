@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
+.typeBlock__layout {
+  padding-top: 152px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typeBlock__layout .typeBlock__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 616px;
+  height: 31.5px;
+  display: block;
+  padding-right: 5px;
+}
+.typeBlock__layout .typeBlock__container .typeBlock__language {
+  cursor: pointer;
+  width: inherit;
+  height: inherit;
+  color: #646669;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12.2px;
+  transition: 0.1s ease;
+}
+.typeBlock__layout .typeBlock__container .typeBlock__language div {
+  float: left;
+}
+.typeBlock__layout .typeBlock__container .typeBlock__language .text {
+  font-size: 12.8px;
+  margin-left: 12.5px;
+}
+.typeBlock__layout .typeBlock__container .typeBlock__language:hover {
+  color: #D1D0C5;
+  transition: 0.1s ease;
+}
+.typeBlock__layout .typeBlock__container .typeBlock__type {
+  width: inherit;
+  height: 300px;
+}/*# sourceMappingURL=TypeBlock.css.map */

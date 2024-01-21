@@ -6,10 +6,9 @@ type Props = {
 const Outer = (props: Props) => {
   return (
     <div>
-      <div id = "nav">
+      <div className="nav">
         {props.children}
       </div>
-      <div></div>
     </div>
   )
 }

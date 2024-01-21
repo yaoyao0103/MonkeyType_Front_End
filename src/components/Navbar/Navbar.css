@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
 .Nav__outer {
   padding-top: 20.5px;
   padding-bottom: 1.4em;
@@ -47,4 +48,4 @@
 .Nav__outer .Nav__container .Nav__icon:hover {
   color: #D1D0C5;
   transition: 0.1s ease;
-}/*# sourceMappingURL=Navigation.css.map */
+}/*# sourceMappingURL=Navbar.css.map */

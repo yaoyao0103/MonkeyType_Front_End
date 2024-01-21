@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
+.testConfig__layout {
+  padding-top: 4px;
+  padding-bottom: 1.4em;
+  padding-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testConfig__layout .testConfig__container {
+  width: 616px;
+  height: 31.5px;
+  background-color: #2C2E31;
+  text-align: center;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testConfig__layout .testConfig__container .spacer {
+  width: 3px;
+  height: 18px;
+  border-radius: 6px;
+  background-color: #323437;
+}
+.testConfig__layout .testConfig__container .testConfig__item {
+  color: #646669;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: "Roboto Mono", monospace;
+  transition: 0.15s ease;
+}
+.testConfig__layout .testConfig__container .testConfig__item div {
+  float: left;
+}
+.testConfig__layout .testConfig__container .testConfig__item .text {
+  margin-left: 5px;
+}
+.testConfig__layout .testConfig__container .testConfig__item.active {
+  color: #19C37D;
+  transition: 0.15s ease;
+}
+.testConfig__layout .testConfig__container .testConfig__item:hover {
+  color: #D1D0C5;
+  transition: 0.1s ease;
+}
+.testConfig__layout .testConfig__container .left__wider {
+  padding-left: 13px;
+  padding-right: 6.5px;
+}
+.testConfig__layout .testConfig__container .right__wider {
+  padding-left: 6.5px;
+  padding-right: 13px;
+}
+.testConfig__layout .testConfig__container .equal__wide {
+  padding-left: 6.5px;
+  padding-right: 6.5px;
+}/*# sourceMappingURL=TestConfig.css.map */
