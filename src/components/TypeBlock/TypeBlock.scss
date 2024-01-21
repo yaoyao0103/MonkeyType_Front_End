@@ -8,10 +8,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 616px;
+        width: 100%;
         height: 31.5px;
         display: block;
-        padding-right: 5px;
+        padding-right: 12px;
+        opacity: 1;
+        transition: opacity 0.1s ease-in-out;
         .typeBlock__language{
             cursor: pointer;
             width: inherit;
@@ -36,8 +38,45 @@
             transition: 0.1s ease;
         }
         .typeBlock__type{
+            width: auto;
+            height: 109px;
+            padding-top: 6px;
+            display: flex;
+            justify-content: center;
+            padding-right: 10px;
+            .typeBlock__words{
+                overflow: hidden;
+                width: 922px;
+                height: 90px;
+                color: $secondary-color;
+                font-size: 20px;
+                font-family: $roboto-mono;
+                line-height: 30px;
+            }
+        }
+        .typeBlock__restart{
+            cursor: pointer;
             width: inherit;
-            height: 300px;
+            height: inherit;
+            color: $secondary-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $roboto-mono;
+            font-size: 14px;
+            transition: 0.1s ease;
+            padding-left: 3.5px;
+        }
+        .typeBlock__restart:hover{
+            color: $secondary-color-hover;
+            transition: 0.1s ease;
         }
     }
+    .typeBlock__container.hidden {
+        opacity: 0;
+    }
+    // .typeBlock__container.visible  {
+    //     opacity: 1;
+    //     visibility: visible;
+    // }
 }
